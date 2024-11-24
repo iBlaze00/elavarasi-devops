@@ -7,7 +7,7 @@ if [ -z "$1" ]; then
 fi
 
 BRANCH_NAME=$1
-MAIN_BRANCH="main"
+MAIN_BRANCH="master"
 
 echo "Switching to branch '$BRANCH_NAME'..."
 git checkout $BRANCH_NAME
